@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="page1">
+      <div data-role="header"><h3>Form</h3></div>
+
+      <div data-role="content">
+        <div>
+          <label for="text">Name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="text">city:</label>
+          <input type="text" name="city" id="city" />
+          <label for="text">Pincode:</label>
+          <input type="text" name="pincode" id="pincode" />
+          <button class="ui-btn" style="background-color: cadetblue">
+            Button
+          </button>
+          <input type="button" data-inline="true" value="Submit" />
+        </div>
+      </div>
+
+      <div data-role="footer">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#page1" active="">Form</a></li>
+            <li><a href="#page2">Links</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- page2 -->
+
+    <div data-role="page" id="page2" data-theme="b">
+      <div data-role="header"><h3>Institutional websites</h3></div>
+
+      <div data-role="main">
+        <ul data-role="listview">
+          <li><a href="https://pict.edu/" target="_blank">PICT</a></li>
+        </ul>
+      </div>
+
+      <div data-role="footer">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#page1">Form</a></li>
+            <li><a href="#page2" active="">Links</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

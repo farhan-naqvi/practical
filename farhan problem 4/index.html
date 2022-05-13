@@ -1,0 +1,85 @@
+<!-- Roll no: 33346 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>JQuery application</title>
+  </head>
+  <body>
+    <div data-role="page" id="page1" data-theme="a">
+      <div data-role="header">
+        <h3>Form</h3>
+      </div>
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <h3>Form</h3>
+
+        <label for="text-basic">Name </label>
+        <input type="text" name="name" id="text-basic" value="" />
+
+        <label for="text-basic">Roll No </label>
+        <input type="number" name="roll" id="text-basic" value="" />
+
+        <label for="text-basic">College </label>
+        <input type="text" name="college" id="text-basic" value="" />
+      </div>
+      <button type="submit" style="background-color: #9be2c8">Submit</button>
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1" class="ui-btn-active">Form</a></li>
+                <li><a href="#page2">Websites</a></li>                
+            </ul>
+        </div>
+      </div>
+    </div>
+<!-- ####################################################################################################################### -->
+    <div data-role="page" id="page2" data-theme="a">
+      <div data-role="header">
+        <h1>Institute Websites</h1>
+      </div>
+
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <p>Web Sites</p>
+        <ul data-role="listview">
+          <li>
+            <a href="https://pict.edu/" target="_blank">pict</a>
+          </li>
+          <li>
+            <a href="https://www.iitb.ac.in/" target="_blank">IIT BOMBAY</a>
+          </li>
+        </ul>
+        <br />
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1">Form</a></li>
+                <li><a href="#page2"class="ui-btn-active">Websites</a></li>                
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
